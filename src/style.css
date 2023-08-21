@@ -1,22 +1,22 @@
 .container {
-  background-color: cadetblue;
+  background-color: #607196;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0 auto;
-
+  position: relative;
 }
 .div-one {
   background-color: white;
   height: 50vh;
-  width: 50%;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-radius: 1rem;
 }
-
 
 .one-div {
   width: 3rem;
@@ -54,7 +54,7 @@
   color: red;
 }
 
-.divtwo{
+.divtwo {
   background-color: white;
   height: 50vh;
   width: 45%;
@@ -62,4 +62,33 @@
   flex-direction: column-reverse;
   align-items: center;
   justify-content: space-around;
+  border-radius: 1rem;
+}
+.textTitle {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 3rem;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnStyles {
+  margin: 0.5rem;
+  width: auto;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #e6e9ef;
+  cursor: pointer;
+  box-shadow: 2px 7px 38px 7px rgba(156, 150, 150, 0.6);
+  -webkit-box-shadow: 2px 7px 38px 7px rgba(156, 150, 150, 0.6);
+  -moz-box-shadow: 2px 7px 38px 7px rgba(156, 150, 150, 0.6);
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #616265;
+}
+.btnStyles:hover {
+  background-color: #86c097;
+  color: #000000;
 }
