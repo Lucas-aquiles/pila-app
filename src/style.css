@@ -83,9 +83,7 @@
   border: none;
   background-color: #e6e9ef;
   cursor: pointer;
-  box-shadow: 2px 7px 38px 7px rgba(156, 150, 150, 0.6);
-  -webkit-box-shadow: 2px 7px 38px 7px rgba(156, 150, 150, 0.6);
-  -moz-box-shadow: 2px 7px 38px 7px rgba(156, 150, 150, 0.6);
+ 
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #616265;
