@@ -100,4 +100,6 @@
 .btnStyles:hover {
   background-color: #86c097;
   color: #000000;
+  overflow-x: hidden;
+
 }
